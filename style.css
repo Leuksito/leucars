@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    background-color: #0b0b0b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* CABECERA */
+
+header {
+    background-color: #080808;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 1px solid #b8942e;
+}
+
+.logo {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
+header p {
+    color: #aaa;
+    margin: 8px 0 20px;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    color: #d4af37;
+}
+
+/* CONTENIDO GENERAL */
+
+main {
+    width: 88%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    padding: 65px 10px 45px;
+}
+
+.titulo h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    margin: 0 0 15px;
+}
+
+.titulo h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin: 0 0 15px;
+}
+
+.titulo p {
+    color: #aaa;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* LÍNEA DORADA */
+
+.linea {
+    width: 70px;
+    height: 2px;
+    background-color: #d4af37;
+    margin: 22px auto;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.imagen-principal {
+    width: 100%;
+    max-height: 580px;
+    object-fit: cover;
+    display: block;
+    margin: 25px auto;
+}
+
+/* BOTONES */
+
+.boton {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #111;
+    padding: 14px 28px;
+    margin-top: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.boton:hover {
+    background-color: #f0cf63;
+}
+
+/* TARJETAS INFORMATIVAS */
+
+.cajas {
+    text-align: center;
+    margin: 30px 0 70px;
+}
+
+.caja {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #151515;
+    border: 1px solid #292929;
+    width: 30%;
+    min-height: 180px;
+    margin: 10px;
+    padding: 30px 22px;
+}
+
+.caja:hover {
+    border-color: #d4af37;
+}
+
+.caja h3 {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.caja p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+/* TARJETAS DE COCHES */
+
+.flotas {
+    text-align: center;
+    margin: 30px 0 70px;
+}
+
+.coche {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 31%;
+    background-color: #151515;
+    margin: 10px;
+    border: 1px solid #292929;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.coche:hover {
+    border-color: #d4af37;
+}
+
+.coche img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    display: block;
+}
+
+.coche h3 {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    font-size: 23px;
+    margin: 20px 20px 8px;
+}
+
+.coche p {
+    color: #aaa;
+    line-height: 1.6;
+    margin: 8px 20px;
+}
+
+.precio {
+    color: white !important;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.coche .boton {
+    margin-left: 20px;
+}
+
+/* TEXTOS DE SOBRE NOSOTROS */
+
+.texto {
+    max-width: 850px;
+    margin: auto;
+    padding: 20px 0 70px;
+    line-height: 1.8;
+}
+
+.texto h2 {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    margin-top: 35px;
+}
+
+.texto p {
+    color: #bbb;
+}
+
+/* FORMULARIO DE CONTACTO */
+
+.formulario {
+    max-width: 650px;
+    margin: 20px auto 70px;
+    background-color: #151515;
+    border: 1px solid #292929;
+    padding: 35px;
+}
+
+.formulario h2 {
+    color: #d4af37;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 28px;
+}
+
+.formulario label {
+    display: block;
+    color: #d4af37;
+    margin-top: 18px;
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    background-color: #222;
+    border: 1px solid #444;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.formulario textarea {
+    height: 130px;
+}
+
+.formulario .boton {
+    border: 0;
+    cursor: pointer;
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #080808;
+    text-align: center;
+    padding: 35px 15px;
+    margin-top: 50px;
+    border-top: 1px solid #292929;
+}
+
+footer p {
+    color: #888;
+    margin: 8px;
+}
+
+footer .marca {
+    color: #d4af37;
+    font-family: Georgia, serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+/* ADAPTACIÓN A PANTALLAS PEQUEÑAS */
+
+@media (max-width: 800px) {
+    main {
+        width: 92%;
+    }
+
+    .coche,
+    .caja {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .titulo h1 {
+        font-size: 36px;
+    }
+}
